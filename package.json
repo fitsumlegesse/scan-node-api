@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon -r esm server.js",
-    "build" : "run build package.json"
+    "build" : "run build"
 
   },
   "keywords": [],
