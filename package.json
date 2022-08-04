@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon -r esm server.js"
+    "start": "nodemon -r esm server.js",
+    "build" : "webpack --config webpack.conf.js"
+
   },
   "keywords": [],
   "author": "",

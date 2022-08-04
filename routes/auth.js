@@ -14,7 +14,7 @@ const router = express.Router()
 
 router.post("/register", register)
 router.get('/', function (req, res) {
-   res.send('Hello Tags');
+   res.send('Hello Client, you have accessed the api');
 })
 
 
