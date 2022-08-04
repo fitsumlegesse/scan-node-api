@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon -r esm server.js",
-    "build" : "webpack --config webpack.conf.js"
+    "build" : "npm run lint"
 
   },
   "keywords": [],
